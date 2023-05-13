@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+   <link rel="stylesheet" href="style.css" />
+   <title>igntu.sportsclub.in</title>
+</head>
+
+<body>
+<div class="top">
+    <img src="img/logo_igntu.png" height="20px" alt="logo">
+    <div class="dati">
+      <div class="display-date">
+        <span id="day">day</span>,
+        <span id="daynum">00</span>
+        <span id="month">month</span>
+        <span id="year">0000</span>
+      </div>
+        <div class="display-time"></div>
+      </div>
+      
+</div>
+    <nav class="navbar">
+
+    <div class="logo">Sports<span>Club</span></div>
+
+     
+     <ul class="nav-links">
+
+    
+     <input type="checkbox" id="checkbox_toggle" />
+         <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+
+     <div class="menu">
+
+       <li><a href="/">Home</a></li>
+      <li><a href="/">Admin</a></li>
+
+        <li class="services">
+        <a href="/">Students</a>
+
+        <!-- DROPDOWN MENU -->
+         <ul class="dropdown">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Signup</a></li>
+            <li><a href="#">Trial</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="/">Notice</a></li>
+</ul>
+
+ </li>
+        <li><a href="#about">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    </div>
+ </ul>
+</nav>
+    
+<div class="bg">
+     <div class="img-slider">
+        <div class="slide active">
+          <img src="img/igntu.admin.jpg" height="400px" alt="">
+          <div class="info">
+            <h4>IGNTU ADMINISTRATION</h4>
+            </div>
+        </div>
+        <div class="slide">
+          <img src="img/basketball.jpg" height="400px" alt="">
+          <div class="info">
+            <h4>Basket Ball</h4>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="img/National chess.jpg" height="400px" alt="">
+          <div class="info">
+            <h4>National chess </h4>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="img/Table tennis.jpg" height="400px" alt="">
+          <div class="info">
+            <h4>TABLE TENNIS</h4>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="img/race 1.jpg" height="400px" alt="">
+          <div class="info">
+            <h4>National Race</h4>
+          </div>
+        </div>
+        <div class="navigation">
+          <div class="btn active"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+        </div>
+      </div>
+</div>
+
+
+
+<!--About section-->
+<section id="about">
+  <div class="about container">
+      
+      <div class="col-right">
+          <h1 class="section-title">ABOUT <Span>US</Span></h1>
+          <br>
+          <h2>IGNTU SPORTS CLUB</h2>
+          <hr style="border: 1px solid #006b96;">
+          <br>
+          <p> This is a university sports website for igntu. This website provide a online registration 
+            and apply to trials for games. this website Developed by Uttam Markam Department of vocational 
+            education in software development, session 2022-2023 please visit this site and apply to trials for Game. 
+            The University is known as highest seat of learning. Indira Gandhi National Tribal University is 
+            fast marching ahead to fulfill its objectives and mission. Located in a tribal belt, this University 
+            is poised for meeting the expectations of the society in general and tribal population in particular.  </p>
+      <a href="trial.html" class="cta">For Trial</a>
+      </div>
+  </div>
+</section>
+<!--End About Section-->
+
+     
+
+    
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Sports<span>Club</span></h3>
+
+				<p class="footer-links">
+					<a href="#" class="link-1">Home</a>
+					
+					<a href="#">login</a>
+				
+					<a href="#">Trial</a>
+				
+					<a href="#">Gallery</a>
+					
+					<a href="#">About</a>
+					
+					<a href="#">Contact</a>
+				</p>
+</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa-sharp fa-solid fa-location-dot"></i>
+					<p><span>IGNTU</span> SportsClub, Amarkantak</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 9111601934</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">sportsclub@igntu.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>SportsClub Work-Hard, Play Hard</span>
+					Indira Gandhi National Tribal University Amarkantak (M.P.)
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa-brands fa-facebook"></i></a>
+					<a href="#"><i class="fa-brands fa-twitter"></i></a>
+					<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+					<a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+				</div>
+
+			</div>
+<hr>
+      <div class="copyr">SportsClub © 2023 | All Right Reserved</div>
+<hr>
+		</footer>
+    <script>
+      var dt = new Date();
+      document.getElementById('date-time').innerHTML=dt;
+      </script>
+      
+
+  <script src="main.js"></script>
+
+
+</body>
+
+</html>
